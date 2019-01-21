@@ -7,6 +7,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>{{ title|default("MohamedWebSite") }}</title>
+		<!-- CSS Files -->
+		<link rel="stylesheet" href="helium/css/main.css">
+		<link rel="stylesheet" href="helium/css/animate.css">
+		<link rel="stylesheet" href="helium/css/owl.carousel.css">
+		<link rel="stylesheet" href="helium/css/owl.theme.css">
+		<link rel="stylesheet" href="helium/css/responsive.css">
+
+		<!-- Fonts icons -->
+		<link rel="stylesheet" href="helium/css/font-awesome.min.css">
+		
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link href="/styles/site.css" rel="stylesheet">
 		{% if user and user.canAccessKeystone %}
@@ -68,6 +78,13 @@
 		</div>
 		<script src="/js/jquery/jquery-1.11.3.min.js"></script>
 		<script src="/js/bootstrap/bootstrap-3.3.5.min.js"></script>
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="helium/js/tether.min.js"></script>
+		<script src="helium/js/owl.carousel.min.js"></script>
+		<script src="helium/js/form-validator.min.js"></script>
+		<script src="helium/js/contact-form-script.js"></script>
+		<script src="helium/js/main.js"></script>
 		{% if (user is defined) and (user.canAccessKeystone) %}
 			<script src="/keystone/js/content/editor.js"></script>
 		{% endif %}
