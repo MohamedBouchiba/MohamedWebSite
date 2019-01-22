@@ -7,6 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>{{ title|default("MohamedWebSite") }}</title>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" async
+				src="bower_components/MathJax/MathJax.js?config=TeX-AMS_CHTML">
+		</script>
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="helium/css/main.css">
 		<link rel="stylesheet" href="helium/css/animate.css">
@@ -85,6 +91,7 @@
 		<script src="helium/js/form-validator.min.js"></script>
 		<script src="helium/js/contact-form-script.js"></script>
 		<script src="helium/js/main.js"></script>
+		<script src="bower_components/d3/d3.min.js"></script>
 		{% if (user is defined) and (user.canAccessKeystone) %}
 			<script src="/keystone/js/content/editor.js"></script>
 		{% endif %}

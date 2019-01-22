@@ -1,0 +1,21 @@
+{
+  "name": "MohamedWebSite",
+  "homepage": "https://github.com/MohamedBouchiba/MohamedWebSite",
+  "authors": [
+    "MohamedBouchiba <mohamed.bouchiba1993@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "MathJax": "^2.7.5",
+    "d3": "^5.7.0"
+  }
+}
