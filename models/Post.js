@@ -20,12 +20,15 @@ Post.add({
 	content: {
 		brief: { type: Types.Html, wysiwyg: true, height: 150 },
 		extended: { type: Types.Html, wysiwyg: true, height: 400 },
+		paraMath: { type: Types.Html, wysiwyg: true, height: 200 },
+		paraInfo: { type: Types.Html, wysiwyg: true, height: 200 },
+		conclusion: { type: Types.Html, wysiwyg: true, height: 200 },
 	},
 	categories: { type: Types.Relationship, ref: 'PostCategory', many: true },
 });
 
 Post.schema.virtual('content.full').get(function () {
-	return this.content.extended || this.content.brief;
+	return this.content.extended || this.content.brief || this.content.paraInfo || this.content.paraMath || this.content.conclusion;
 });
 
 Post.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
