@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2e763d-9e97-4bd0-9e99-edc8532e1f57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layouts/default.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layouts/default.twig" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/layouts/default.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2604">
-              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="48">
+              <caret line="83" column="13" selection-start-line="82" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -135,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/views/index.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -185,7 +185,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/public/bower.json" />
-        <option value="$PROJECT_DIR$/templates/layouts/default.twig" />
         <option value="$PROJECT_DIR$/templates/views/post.twig" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -198,6 +197,7 @@
         <option value="$PROJECT_DIR$/routes/views/algorithmes.js" />
         <option value="$PROJECT_DIR$/templates/views/algorithmes.twig" />
         <option value="$PROJECT_DIR$/templates/views/index.twig" />
+        <option value="$PROJECT_DIR$/templates/layouts/default.twig" />
       </list>
     </option>
   </component>
@@ -348,12 +348,12 @@
       <workItem from="1548073211717" duration="4221000" />
       <workItem from="1548151748545" duration="6533000" />
       <workItem from="1548170981896" duration="4333000" />
-      <workItem from="1548293617044" duration="9830000" />
+      <workItem from="1548293617044" duration="9926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25837000" />
+    <option name="totallyTimeSpent" value="25933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1315" height="743" extended-state="6" />
@@ -550,13 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layouts/default.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2604">
-          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/views/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115" />
@@ -608,6 +601,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="3" column="2" selection-start-line="3" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layouts/default.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="83" column="13" selection-start-line="82" selection-end-line="85" />
         </state>
       </provider>
     </entry>
