@@ -25,10 +25,13 @@ build/Release
 node_modules
 
 # Ignore .env configuration files
-.env
+#.env
 
 # Ignore .DS_Store files on OS X
 .DS_Store
 
 #ignor bower
 /public/bower_components
+
+#IDEA webstorm
+.idea
