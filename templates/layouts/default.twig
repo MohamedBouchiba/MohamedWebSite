@@ -36,9 +36,9 @@
 		{% block head %}{% endblock %}
 	</head>
 	<body>
-	<div id="header" class="container-fluid">
+	<div id="header" class="container">
 			<div role="navigation" class="navbar navbar-default">
-				<div class="container-fluid">
+				<div class="container">
 					<div class="navbar-header">
 						<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="sr-only">Toggle navigation</span>
@@ -93,7 +93,6 @@
 		<script src="helium/js/form-validator.min.js"></script>
 		<script src="helium/js/contact-form-script.js"></script>
 		<script src="helium/js/main.js"></script>
-		<script src="bower_components/d3/d3.min.js"></script>
 		{% if (user is defined) and (user.canAccessKeystone) %}
 			<script src="/keystone/js/content/editor.js"></script>
 		{% endif %}
