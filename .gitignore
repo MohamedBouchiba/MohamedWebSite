@@ -31,7 +31,7 @@ node_modules
 .DS_Store
 
 #ignor bower
-/public/bower_components
+#/public/bower_components
 
 #IDEA webstorm
 .idea
